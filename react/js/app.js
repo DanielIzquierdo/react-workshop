@@ -73,7 +73,7 @@ var ListToggle = React.createClass({
     var styleTileBtn = 'btn ' + (this.props.listType == 'tile'? 'btn-primary':'btn-default')
     return (
       <div className="list-toggle">
-        <div className="btn-group" role="group" aria-label="...">
+        <div className="btn-group" role="group" aria-label="">
           <button id="list" onClick={this.handleClick} type="button"
                   className={styleListBtn}>Lista</button>
           <button id="tile" onClick={this.handleClick} type="button"
