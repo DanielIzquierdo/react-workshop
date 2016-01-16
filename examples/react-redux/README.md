@@ -29,7 +29,9 @@ En los Reducers es donde se implementa la lógica de la aplicación.
 Son funciones puras (sin efectos secundarios) que reciben `state` y `action`
 como parámetros. Retornan un nuevo estado sin alterar el estado recibido.
 
+## Ejercicio 1 - A Reducer
 
+Implementemos un _Reducer_ 
 
 ## Ejercicio 2 - Stores
 
